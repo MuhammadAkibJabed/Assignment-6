@@ -1,5 +1,5 @@
 const errorDiv=document.getElementById('error');
-
+// data loaded area
 const searchBook=()=>{
     const searchField=document.getElementById('search-field');
     
@@ -17,7 +17,7 @@ const searchBook=()=>{
 
 }
 
-
+// search data loaded area
 const displayBookResult=(books)=>{
     const searchResult=document.getElementById('search-result');
     searchResult.innerHTML = '';
